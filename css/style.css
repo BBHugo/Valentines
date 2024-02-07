@@ -1,0 +1,33 @@
+html {
+    text-align: center;
+    background: beige;
+    color: black;
+    /*font-family: ;*/
+}
+
+img {
+    opacity: 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    /* background: blue; */
+    margin: 0;
+    padding: 0;
+}
+
+.yesButton {
+    color: red;
+    display: flex;
+    /* background-image: url(/images/heartBackground.jpg); */
+    height: 80px;
+    width: 190px;
+    background: pink;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
