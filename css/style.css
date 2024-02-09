@@ -6,7 +6,7 @@ html {
 }
 
 img {
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .buttons {
@@ -29,5 +29,17 @@ img {
     background: pink;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
+}
+
+.noButton{
+    color: white;
+    display: flex;
+    height: 80px;
+    width: 190px;
+    background: rgb(37, 36, 36);
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/HD-wallpaper-red-angry-face-off-angry-face-pissed-red.jpg);
     border-radius: 20px;
 }
